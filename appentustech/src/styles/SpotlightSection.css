@@ -1,0 +1,85 @@
+
+.spotlight-section {
+    padding: 1rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .spotlight-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+
+  .spotlight-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  
+
+  .spotlight-item {
+    flex: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .spotlight-image {
+    width: 100%;
+    height: 30vh;
+    box-shadow: 0 0 5px black;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+  
+  .spotlight-item-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 15px;
+  }
+  
+  .spotlight-item-description {
+    font-size: 0.9rem;
+    color: gray;
+    margin: 0 15px 15px;
+  }
+  
+
+  .spotlight-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .control-btn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    color: #900d0d; 
+  }
+  
+  .control-btn:hover {
+    color: #c40000;
+  }
+  
+  @media (max-width: 768px) {
+    .spotlight-carousel {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .spotlight-item {
+      flex: 0 0 80%;
+    }
+  }
+  

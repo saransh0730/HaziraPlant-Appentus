@@ -1,0 +1,143 @@
+.footer {
+    background: linear-gradient(to bottom, #fce4ec, #fad9e5);
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 2rem 1rem;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .footer-logo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-logo-image {
+    max-width: 80px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer h3 {
+    font-size: 1.5rem;
+    color: #9e1b1e;
+  }
+  
+  .footer-links {
+    flex: 2;
+    min-width: 200px;
+  }
+  
+  .footer-links h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #000;
+  }
+  
+  .links-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .links-columns ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links-columns li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-contact,
+  .footer-admin,
+  .footer-visitor {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-contact h4,
+  .footer-admin h4,
+  .footer-visitor h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-contact ul,
+  .footer-contact li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-visitor p {
+    margin: 0.5rem 0;
+  }
+  
+  .footer-visitor strong {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+    margin-top: 2rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .footer-bottom strong {
+    color: #9e1b1e;
+  }
+  
+  .footer-company-logo {
+    width: 150px;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .links-columns {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .links-columns ul {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer h3 {
+      font-size: 1.2rem;
+    }
+  
+    .footer h4 {
+      font-size: 1rem;
+    }
+  
+    .footer-company-logo {
+      max-width: 60px;
+    }
+  }
+  

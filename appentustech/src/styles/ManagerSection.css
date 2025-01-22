@@ -1,0 +1,74 @@
+.manager-section-container {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #9e1b1e;
+    margin-bottom: 2rem;
+  }
+  
+  .manager-card {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+  }
+  
+  .manager-image {
+    width: 30%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manager-details {
+    text-align: left;
+    width: 50%;
+    text-overflow: clip;
+  }
+  
+  .manager-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .manager-description {
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .read-more-link {
+    color: #9e1b1e;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .read-more-link:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    .manager-card {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .manager-details {
+      text-align: center;
+      width: 100%;
+      text-overflow: clip;
+    }
+  
+    .manager-image {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  

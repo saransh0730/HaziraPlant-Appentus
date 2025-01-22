@@ -1,0 +1,148 @@
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    background-color: #f9f9f9;
+    padding: 1rem 1rem;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: auto;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .badge {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff9933;
+    color: #fff;
+    padding: 0.5rem 0.7rem;
+    border-radius: 1.3rem;
+    font-size: 1rem;
+  }
+  
+  .birthday-list,
+  .duty-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .birthday-item,
+  .duty-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .birthday-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 35vh;
+    border-radius: 10px;
+  }
+  
+  .card-button {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .glance {
+    background-color: brown;
+  }
+
+  .theme {
+    background-color: rgb(233, 233, 28);
+    color: black;
+  }
+
+  .employees {
+    background-color: rgb(50, 140, 219);
+  }
+
+  .thought {
+    background-color: green;
+  }
+  
+  .word {
+    background-color: blue;
+  }
+
+  .card-button:hover {
+    background-color: #ff3333;
+  }
+
+  .birthday-section {
+    background-color: #fee2d3;
+  }
+  
+  .hazira-section {
+    background-color: #fecbcb;
+  }
+  
+  .ongc-song {
+    background-color: #fdf3c1;
+  }
+  
+  .safety-rules {
+    background-color: #e1ecfe;
+  }
+  
+  .todays-thought {
+    background-color: #d8fed2;
+  }
+  
+  .todays-word {
+    background-color: #e2d4fd;
+  }
+  
+  .duty-day {
+    background-color: #ccf1f7;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 90%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .card-header h3 {
+      font-size: 1.2rem;
+    }
+  
+    .card-button {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+
+    .card-image {
+        height: auto;
+      }
+  }
+  

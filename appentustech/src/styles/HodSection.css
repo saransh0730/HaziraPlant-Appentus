@@ -1,0 +1,78 @@
+.highlight-section {
+    padding: 1rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.highlight-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.highlight-item {
+    flex: 0 0 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.highlight-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.highlight-item-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 15px;
+}
+
+.highlight-item-description {
+    font-size: 0.9rem;
+    color: gray;
+    margin: 0 15px 15px;
+}
+
+.highlight-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.control-button {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    color: #900d0d;
+}
+
+.control-button:hover {
+    color: #c40000;
+}
+
+@media (max-width: 768px) {
+    .highlight-carousel {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .highlight-item {
+        flex: 0 0 80%;
+    }
+}
